@@ -1,7 +1,6 @@
 
 package com.JSpadaApplication.baseDatos.JSpada.model;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -10,19 +9,18 @@ import lombok.Getter;
 import lombok.Setter;
 
 
+
+
 @Entity
 @Getter  
 @Setter
-public class ExperienciaLaboral {
+public class Localidad {
     
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    private String titulo;
-    private String descripcion;
-    private String fecha;
-    private String urlImagen;
-    private Long personaIdPersona;
-    
-
+    private String provincia;
+    private String pais;
+    private Long personaId;
+   
 }

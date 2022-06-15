@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.JSpadaApplication.baseDatos.JSpada.service;
 
 import com.JSpadaApplication.baseDatos.JSpada.model.Persona;
@@ -9,10 +6,7 @@ import com.JSpadaApplication.baseDatos.JSpada.repository.PersonaRepository;
 import java.util.List;
 import org.springframework.stereotype.Service;
 
-/**
- *
- * @author JavierS
- */
+
 @Service
 public class PersonaService {
     
